@@ -13,6 +13,8 @@
 		2472629E1C79050000F2C452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2472629C1C79050000F2C452 /* Main.storyboard */; };
 		247262A01C79050000F2C452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2472629F1C79050000F2C452 /* Assets.xcassets */; };
 		247262A31C79050000F2C452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247262A11C79050000F2C452 /* LaunchScreen.storyboard */; };
+		247262CC1C79CB6800F2C452 /* MyTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247262CB1C79CB6800F2C452 /* MyTableTableViewController.swift */; };
+		247262CE1C79F14000F2C452 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247262CD1C79F14000F2C452 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2472629F1C79050000F2C452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247262A21C79050000F2C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247262A41C79050000F2C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247262CB1C79CB6800F2C452 /* MyTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableTableViewController.swift; sourceTree = "<group>"; };
+		247262CD1C79F14000F2C452 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				247262981C79050000F2C452 /* FirstViewController.swift */,
 				2472629A1C79050000F2C452 /* SecondViewController.swift */,
 				2472629C1C79050000F2C452 /* Main.storyboard */,
+				247262CD1C79F14000F2C452 /* MyTableViewCell.swift */,
+				247262CB1C79CB6800F2C452 /* MyTableTableViewController.swift */,
 				2472629F1C79050000F2C452 /* Assets.xcassets */,
 				247262A11C79050000F2C452 /* LaunchScreen.storyboard */,
 				247262A41C79050000F2C452 /* Info.plist */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247262CC1C79CB6800F2C452 /* MyTableTableViewController.swift in Sources */,
 				2472629B1C79050000F2C452 /* SecondViewController.swift in Sources */,
 				247262971C79050000F2C452 /* AppDelegate.swift in Sources */,
+				247262CE1C79F14000F2C452 /* MyTableViewCell.swift in Sources */,
 				247262991C79050000F2C452 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +297,7 @@
 				247262A91C79050000F2C452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
