@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  Psychologist
+//  FirstViewController.swift
+//  Molesykn
 //
 //  Created by Janusz Grzesik on 21.02.2016.
 //  Copyright © 2016 jg. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

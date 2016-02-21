@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2472630D1C7A4E0C00F2C452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2472630C1C7A4E0C00F2C452 /* AppDelegate.swift */; };
-		2472630F1C7A4E0C00F2C452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2472630E1C7A4E0C00F2C452 /* ViewController.swift */; };
-		247263121C7A4E0C00F2C452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247263101C7A4E0C00F2C452 /* Main.storyboard */; };
-		247263151C7A4E0C00F2C452 /* Psychologist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 247263131C7A4E0C00F2C452 /* Psychologist.xcdatamodeld */; };
-		247263171C7A4E0C00F2C452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247263161C7A4E0C00F2C452 /* Assets.xcassets */; };
-		2472631A1C7A4E0C00F2C452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247263181C7A4E0C00F2C452 /* LaunchScreen.storyboard */; };
+		247263501C7A620400F2C452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2472634F1C7A620400F2C452 /* AppDelegate.swift */; };
+		247263521C7A620400F2C452 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247263511C7A620400F2C452 /* FirstViewController.swift */; };
+		247263541C7A620400F2C452 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247263531C7A620400F2C452 /* SecondViewController.swift */; };
+		247263571C7A620400F2C452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247263551C7A620400F2C452 /* Main.storyboard */; };
+		247263591C7A620400F2C452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247263581C7A620400F2C452 /* Assets.xcassets */; };
+		2472635C1C7A620400F2C452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2472635A1C7A620400F2C452 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		247263091C7A4E0C00F2C452 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2472630C1C7A4E0C00F2C452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2472630E1C7A4E0C00F2C452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		247263111C7A4E0C00F2C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		247263141C7A4E0C00F2C452 /* Psychologist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Psychologist.xcdatamodel; sourceTree = "<group>"; };
-		247263161C7A4E0C00F2C452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		247263191C7A4E0C00F2C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2472631B1C7A4E0C00F2C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2472634C1C7A620400F2C452 /* Molesykn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molesykn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2472634F1C7A620400F2C452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		247263511C7A620400F2C452 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		247263531C7A620400F2C452 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		247263561C7A620400F2C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247263581C7A620400F2C452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2472635B1C7A620400F2C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2472635D1C7A620400F2C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		247263061C7A4E0C00F2C452 /* Frameworks */ = {
+		247263491C7A620400F2C452 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,73 +37,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		247263001C7A4E0C00F2C452 = {
+		247263431C7A620400F2C452 = {
 			isa = PBXGroup;
 			children = (
-				2472630B1C7A4E0C00F2C452 /* Psychologist */,
-				2472630A1C7A4E0C00F2C452 /* Products */,
+				2472634E1C7A620400F2C452 /* Molesykn */,
+				2472634D1C7A620400F2C452 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2472630A1C7A4E0C00F2C452 /* Products */ = {
+		2472634D1C7A620400F2C452 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				247263091C7A4E0C00F2C452 /* Psychologist.app */,
+				2472634C1C7A620400F2C452 /* Molesykn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2472630B1C7A4E0C00F2C452 /* Psychologist */ = {
+		2472634E1C7A620400F2C452 /* Molesykn */ = {
 			isa = PBXGroup;
 			children = (
-				2472630C1C7A4E0C00F2C452 /* AppDelegate.swift */,
-				2472630E1C7A4E0C00F2C452 /* ViewController.swift */,
-				247263101C7A4E0C00F2C452 /* Main.storyboard */,
-				247263161C7A4E0C00F2C452 /* Assets.xcassets */,
-				247263181C7A4E0C00F2C452 /* LaunchScreen.storyboard */,
-				2472631B1C7A4E0C00F2C452 /* Info.plist */,
-				247263131C7A4E0C00F2C452 /* Psychologist.xcdatamodeld */,
+				247263631C7A621400F2C452 /* Supporting Files */,
+				247263511C7A620400F2C452 /* FirstViewController.swift */,
+				247263531C7A620400F2C452 /* SecondViewController.swift */,
+				247263551C7A620400F2C452 /* Main.storyboard */,
 			);
-			path = Psychologist;
+			path = Molesykn;
+			sourceTree = "<group>";
+		};
+		247263631C7A621400F2C452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2472634F1C7A620400F2C452 /* AppDelegate.swift */,
+				247263581C7A620400F2C452 /* Assets.xcassets */,
+				2472635A1C7A620400F2C452 /* LaunchScreen.storyboard */,
+				2472635D1C7A620400F2C452 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		247263081C7A4E0C00F2C452 /* Psychologist */ = {
+		2472634B1C7A620400F2C452 /* Molesykn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2472631E1C7A4E0C00F2C452 /* Build configuration list for PBXNativeTarget "Psychologist" */;
+			buildConfigurationList = 247263601C7A620400F2C452 /* Build configuration list for PBXNativeTarget "Molesykn" */;
 			buildPhases = (
-				247263051C7A4E0C00F2C452 /* Sources */,
-				247263061C7A4E0C00F2C452 /* Frameworks */,
-				247263071C7A4E0C00F2C452 /* Resources */,
+				247263481C7A620400F2C452 /* Sources */,
+				247263491C7A620400F2C452 /* Frameworks */,
+				2472634A1C7A620400F2C452 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Psychologist;
-			productName = Psychologist;
-			productReference = 247263091C7A4E0C00F2C452 /* Psychologist.app */;
+			name = Molesykn;
+			productName = Molesykn;
+			productReference = 2472634C1C7A620400F2C452 /* Molesykn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		247263011C7A4E0C00F2C452 /* Project object */ = {
+		247263441C7A620400F2C452 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jg;
 				TargetAttributes = {
-					247263081C7A4E0C00F2C452 = {
+					2472634B1C7A620400F2C452 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = N4S7B5L634;
 					};
 				};
 			};
-			buildConfigurationList = 247263041C7A4E0C00F2C452 /* Build configuration list for PBXProject "Psychologist" */;
+			buildConfigurationList = 247263471C7A620400F2C452 /* Build configuration list for PBXProject "Molesykn" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,55 +119,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 247263001C7A4E0C00F2C452;
-			productRefGroup = 2472630A1C7A4E0C00F2C452 /* Products */;
+			mainGroup = 247263431C7A620400F2C452;
+			productRefGroup = 2472634D1C7A620400F2C452 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				247263081C7A4E0C00F2C452 /* Psychologist */,
+				2472634B1C7A620400F2C452 /* Molesykn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		247263071C7A4E0C00F2C452 /* Resources */ = {
+		2472634A1C7A620400F2C452 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2472631A1C7A4E0C00F2C452 /* LaunchScreen.storyboard in Resources */,
-				247263171C7A4E0C00F2C452 /* Assets.xcassets in Resources */,
-				247263121C7A4E0C00F2C452 /* Main.storyboard in Resources */,
+				2472635C1C7A620400F2C452 /* LaunchScreen.storyboard in Resources */,
+				247263591C7A620400F2C452 /* Assets.xcassets in Resources */,
+				247263571C7A620400F2C452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		247263051C7A4E0C00F2C452 /* Sources */ = {
+		247263481C7A620400F2C452 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2472630F1C7A4E0C00F2C452 /* ViewController.swift in Sources */,
-				247263151C7A4E0C00F2C452 /* Psychologist.xcdatamodeld in Sources */,
-				2472630D1C7A4E0C00F2C452 /* AppDelegate.swift in Sources */,
+				247263541C7A620400F2C452 /* SecondViewController.swift in Sources */,
+				247263501C7A620400F2C452 /* AppDelegate.swift in Sources */,
+				247263521C7A620400F2C452 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		247263101C7A4E0C00F2C452 /* Main.storyboard */ = {
+		247263551C7A620400F2C452 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				247263111C7A4E0C00F2C452 /* Base */,
+				247263561C7A620400F2C452 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		247263181C7A4E0C00F2C452 /* LaunchScreen.storyboard */ = {
+		2472635A1C7A620400F2C452 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				247263191C7A4E0C00F2C452 /* Base */,
+				2472635B1C7A620400F2C452 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2472631C1C7A4E0C00F2C452 /* Debug */ = {
+		2472635E1C7A620400F2C452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +219,7 @@
 			};
 			name = Debug;
 		};
-		2472631D1C7A4E0C00F2C452 /* Release */ = {
+		2472635F1C7A620400F2C452 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,24 +256,24 @@
 			};
 			name = Release;
 		};
-		2472631F1C7A4E0C00F2C452 /* Debug */ = {
+		247263611C7A620400F2C452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Psychologist/Info.plist;
+				INFOPLIST_FILE = Molesykn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.uj.Psychologist;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.uj.Molesykn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		247263201C7A4E0C00F2C452 /* Release */ = {
+		247263621C7A620400F2C452 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Psychologist/Info.plist;
+				INFOPLIST_FILE = Molesykn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.uj.Psychologist;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.uj.Molesykn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -273,37 +281,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		247263041C7A4E0C00F2C452 /* Build configuration list for PBXProject "Psychologist" */ = {
+		247263471C7A620400F2C452 /* Build configuration list for PBXProject "Molesykn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2472631C1C7A4E0C00F2C452 /* Debug */,
-				2472631D1C7A4E0C00F2C452 /* Release */,
+				2472635E1C7A620400F2C452 /* Debug */,
+				2472635F1C7A620400F2C452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2472631E1C7A4E0C00F2C452 /* Build configuration list for PBXNativeTarget "Psychologist" */ = {
+		247263601C7A620400F2C452 /* Build configuration list for PBXNativeTarget "Molesykn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2472631F1C7A4E0C00F2C452 /* Debug */,
-				247263201C7A4E0C00F2C452 /* Release */,
+				247263611C7A620400F2C452 /* Debug */,
+				247263621C7A620400F2C452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		247263131C7A4E0C00F2C452 /* Psychologist.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				247263141C7A4E0C00F2C452 /* Psychologist.xcdatamodel */,
-			);
-			currentVersion = 247263141C7A4E0C00F2C452 /* Psychologist.xcdatamodel */;
-			path = Psychologist.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 247263011C7A4E0C00F2C452 /* Project object */;
+	rootObject = 247263441C7A620400F2C452 /* Project object */;
 }
