@@ -8,13 +8,14 @@
 
 import UIKit
 
+var notebooks: [Notebook]{
+    return Notebook.notebooks()
+}
+
 class MyTableTableViewController: UITableViewController {
     
     // MARK: - Data source
     
-    var notebooks: [Notebook]{
-        return Notebook.notebooks()
-    }
     
     // MARK: - UITableViewDataSource
     
@@ -33,13 +34,10 @@ class MyTableTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("NoteCell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("NoteCell", forIndexPath: indexPath) as! MyTableViewCell
 
-        let note = getNoteByIndexPath(indexPath)
+        cell.note = getNoteByIndexPath(indexPath)
         
-        cell.textLabel?.text = note.title
-        cell.detailTextLabel?.text = note.content
-        cell.imageView?.image = note.image
         return cell
     }
 

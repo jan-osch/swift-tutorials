@@ -10,10 +10,34 @@ import UIKit
 
 class CreateViewController: UIViewController {
 
+    @IBOutlet weak var titleTextField: UITextField!
+
+    @IBOutlet weak var contentTextField: UITextView!
+    
+    @IBAction func addNote(sender: AnyObject) {
+        if(titleTextField.text?.characters.count > 0 ){
+            addCurrentNoteToNotebooks()
+            clearTextFields(titleTextField, contentTextField)
+            self.view.endEditing(true)
+        }
+    }
+    
+    func addCurrentNoteToNotebooks(){
+        var note.init()
+        myItemList.append((itemTitle.text!, itemDescription.text!))
+        print(myItemList)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    func clearTextFields(labelsToClean: UITextField...){
+        for labelToClean in labelsToClean{
+            labelToClean.text! = ""
+        }
     }
 
     override func didReceiveMemoryWarning() {
